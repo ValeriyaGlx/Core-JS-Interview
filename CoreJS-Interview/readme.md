@@ -7,14 +7,7 @@
 - [Почему typeof null === 'object'?](topics/types/typeof.md#typeofnull)
 - [Почему typeof function() {} === 'function'?](topics/types/typeof.md#typeoffunc)
 - [В чем их разница между null и undefined?](topics/types/typeof.md#null-undefined)
-- Как создать объект? (три способа)
-
-1. С использованием литерального синтаксиса: const person = {};
-2. С использованием ключевого слова «new»: const person = new Object();
-3. Использовать метод Object.create(proto, properties) - где
-    proto - oбъект, который должен быть прототипом вновь созданного объекта,
-    properties - необязательный, можно указать дескртипторы свойст объекта - [настройки конфигурации объекта](https://learn.javascript.ru/property-descriptors)
-
+- [Как создать объект? (три способа)](topics/types/typeof.md#obj)
 - [Что такое NaN? typeof NaN.](topics/types/typeofNaN.md#typeofnan)
 - [NaN === NaN ? Почему?](topics/types/typeofNaN.md#naneqvelnan)
 - [Тогда как узнать что перед нами NaN?](topics/types/typeofNaN.md#isnan)
