@@ -3,26 +3,9 @@
 ## ТИПЫ ДАННЫХ:
 
 - [Перечислите все типы данных](topics/types/types.md)
+- [Как узнать какой типа данных перед нами?](topics/types/typeof.md#typeof)
+- [Почему typeof null === 'object'?](topics/types/typeof.md#null-object)
 
-- Как узнать какой типа данных перед нами?
-
-  Оператор typeof возвращает тип аргумента. Унарный оператор typeof возвращает строку, указывающую тип необязательного
-  операнда. Пример:
-
-  ```JS
-  typeof 42 === 'number'
-  typeof 'blabla' === 'string'
-  typeof undefined === 'undefined'
-  typeof true === 'boolean'
-  typeof {a: 1} === 'object'
-  typeof Symbol() === 'symbol'
-  typeof null === 'object'
-  typeof function() {} === 'function'
-  ```
-
-- Почему typeof null === 'object'?
-
-  Это официально признанная ошибка в языке, которая сохраняется для совместимости. На самом деле null – это не объект, а отдельный тип данных.
 
 - Почему typeof function() {} === 'function'?
   Функции не являются отдельным базовым типом в JavaScript, а подвидом объектов. Но typeof выделяет функции отдельно, возвращая для них "function". На практике это весьма удобно, так как позволяет легко определить функцию.
