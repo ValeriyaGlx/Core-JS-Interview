@@ -3,10 +3,10 @@
 ## ТИПЫ ДАННЫХ:
 
 - [Перечислите все типы данных](topics/types/types.md)
-- [Как узнать какой типа данных перед нами?](topics/types/typeof.md#typeof)
-- [Почему typeof null === 'object'?](topics/types/typeof.md#null-object)
-- [Почему typeof function() {} === 'function'?](topics/types/typeof.md#typeof-function)
-- [В чем их разница между null и undefined?](topics/types/typeof.md#null-undefined)
+- [Как узнать какой типа данных перед нами?](topics/types/typeof.md)
+- [Почему typeof null === 'object'?](topics/types/typeofnull.md)
+- [Почему typeof function() {} === 'function'?](topics/types/typeoffunction.md)
+- [В чем их разница между null и undefined?](topics/types/nullundefined.md)
 - Как создать объект? (три способа)
 
 1. С использованием литерального синтаксиса: const person = {};
