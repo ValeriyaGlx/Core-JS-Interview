@@ -3,7 +3,7 @@
 ## ТИПЫ ДАННЫХ:
 
 - [Перечислите все типы данных](topics/types/types.md)
-- [Как узнать какой типа данных перед нами?](topics/types/typeof.md#typeof)
+- [Как узнать какой тип данных перед нами?](topics/types/typeof.md#typeof)
 - [Почему typeof null === 'object'?](topics/types/typeof.md#typeofnull)
 - [Почему typeof function() {} === 'function'?](topics/types/typeof.md#typeoffunc)
 - [В чем их разница между null и undefined?](topics/types/typeof.md#null-undefined)
@@ -18,31 +18,8 @@
 - [Что такое NaN? typeof NaN.](topics/types/typeofNaN.md#typeofnan)
 - [NaN === NaN ? Почему?](topics/types/typeofNaN.md#naneqvelnan)
 - [Тогда как узнать что перед нами NaN?](topics/types/typeofNaN.md#isnan)
-- Что такое Infinity?
-
-Infinity является числовым значением, представляющим математическую бесконечность и сохраняет его поведение.
-
-```JS
-typeof Infinity === "number"
-console.log(Infinity + 1); // Infinity
-console.log(Math.pow(10, 1000)); // Infinity
-console.log(Math.log(0)); // -Infinity
-console.log(1 / Infinity); // 0
-```
-
-- isFinite() что это за функция?
-
-  Oпределяет, является ли переданное значение конечным числом. Если необходимо, параметр сначала преобразуется в число.
-
-  ```JS
-  isFinite(Infinity); // false
-  isFinite(NaN); // false
-  isFinite(-Infinity); // false
-
-  isFinite(0); // true
-  isFinite(2e64); // true
-
-  ```
+- [Что такое Infinity?](topics/types/typeofInfinity.md#typeofinfinity)
+- [isFinite() что это за функция?](topics/types/typeofInfinity.md#isfinite)
 
 - 0.1 + 0.2 === 0.3 ? Почему?
   Наиболее часто встречающаяся ошибка при работе с числами в JavaScript – это потеря точности.
