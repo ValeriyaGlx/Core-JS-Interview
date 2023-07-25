@@ -5,16 +5,8 @@
 - [Перечислите все типы данных](topics/types/types.md)
 - [Как узнать какой типа данных перед нами?](topics/types/typeof.md#typeof)
 - [Почему typeof null === 'object'?](topics/types/typeof.md#null-object)
-
-
-- Почему typeof function() {} === 'function'?
-  Функции не являются отдельным базовым типом в JavaScript, а подвидом объектов. Но typeof выделяет функции отдельно, возвращая для них "function". На практике это весьма удобно, так как позволяет легко определить функцию.
-- В чем их разница между null и undefined?
-
-  undefined - получается при попытке получить значение там, где значения нет.
-  null — явное «зануливание» переменной (object = null), когда ссылка на объект больше не требуется.
-  Упрощённо: JavaScript использует undefined, а программисты должны использовать null.
-
+- [Почему typeof function() {} === 'function'?](topics/types/typeof.md#typeof-function)
+- [В чем их разница между null и undefined?](topics/types/typeof.md#null-undefined)
 - Как создать объект? (три способа)
 
 1. С использованием литерального синтаксиса: const person = {};
