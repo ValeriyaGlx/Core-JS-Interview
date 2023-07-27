@@ -75,7 +75,7 @@
 
 Немного другая схема полиморфизма:
 <br><br>
-<img src="./OOP-topic-imgs/Polymorphism.webp" style="display:block;float:none;margin-left:auto;margin-right:auto;width:400px">
+<img src="./images/Polymorphism.webp" style="display:block;float:none;margin-left:auto;margin-right:auto;width:400px">
 
 
 По ходу, ни один принцип ООП не обладает такой противоречивой информацией, и не вызывает так много дискуссий как полиморфизм. Очень объемная [статья на медиуме](https://medium.com/devschacht/polymorphism-207d9f9cd78) по этому поводу.
