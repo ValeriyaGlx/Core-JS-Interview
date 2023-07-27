@@ -68,20 +68,19 @@
 
 ## ФУНКЦИИ:
 
-- что такое функциональное программирование
-- какие виды функций ты знаешь. Какие различия
-- какие особенности у стрелочной функции
-- что такое callback функция
-- что такое функция высшего порядка?
-- что такое чистая функция?
-- что такое iife? Зачем?
-- что такое функция конструктор
-- что такое замыкание
-- что такое new?
-- что такое this?
-- можем ли мы привязаться this к функции? Какие методы?
-- особенности bind
-- что такое замыкание
+- [Что такое функциональное программирование](topics/functions/functions.md#func-prog)
+- [Какие виды функций вы знаете. Какие различия?](topics/functions/functions.md#functions)
+- [Какие особенности у стрелочной функции?](topics/functions/functions.md#arrow-func)
+- [Что такое callback функция?](topics/functions/functions.md#callback)
+- [Что такое функция высшего порядка?](topics/functions/functions.md#higher-order)
+- [Что такое чистая функция?](topics/functions/functions.md#clean-func)
+- [Что такое iife? Для чего она нужна?](topics/functions/functions.md#iife)
+- [Что такое функция конструктор?](topics/functions/functions.md#constructor)
+- [Что такое замыкание?](topics/functions/functions.md#closure)
+- [Что такое new?](topics/functions/functions.md#new)
+- [Что такое this?](topics/functions/functions.md#this)
+- [Можем ли мы привязаться this к функции? Какие методы?](topics/functions/functions.md#this-func)
+- [Особенности bind.](topics/functions/functions.md#bind)
 
 ## OOP
 
