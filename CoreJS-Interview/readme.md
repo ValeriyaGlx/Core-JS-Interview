@@ -159,18 +159,18 @@
 
 ## БРAУЗЕР
 
-- что такое DOM?
-- что такое BOM?
-- что такое CSSOM?
-- что такое document
-- поиск элементов в DOM(Не забывать про getElementsBy..)
-- живые и неживые коллекции что это
-- браузерные события. Знать основные, помнить что есть DOMContentLoaded
-- фазы события, перечислить
-- обработчик событий, как повесить, как убрать. Какой нюанс, если мы хотим удалить обработчик
-- event.preventDefault() что это что делает
-- как предотвратить распространение события
-- что такое делегирования событий
+- [Что такое DOM?](topics/browser/browser.md#dom)
+- [Что такое document?](topics/browser/browser.md#document)
+- [Что такое BOM?](topics/browser/browser.md#bom)
+- [Что такое CSSOM?](topics/browser/browser.md#cssom)
+- [Поиск элементов в DOM](topics/browser/browser.md#dom-serch)
+- [Живые и неживые коллекции что это?](topics/browser/browser.md#collections)
+- [Браузерные события](topics/browser/browser.md#events)
+- [Фазы события](topics/browser/browser.md#phases)
+- [Обработчик событий, как повесить, как убрать. Какой нюанс, если мы хотим удалить обработчик](topics/browser/browser.md#event-listeners)
+- [Еvent.preventDefault() что это что делает](topics/browser/browser.md#prevent-default)
+- [Как предотвратить распространение события](topics/browser/browser.md#stop-propagandation)
+- [Что такое делегирования событий](topics/browser/browser.md#delegate)
 
 ## АСИНХРОННОСТЬ
 
